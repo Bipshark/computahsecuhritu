@@ -65,3 +65,37 @@ The star security or *-property:
   * if A = w then current-level(S) = level (O)
 
 ![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2014.51.55.png)
+
+## Salami-attack
+
+In information security, a salami attack is a series of minor attacks that together results in a larger attack.
+
+## Morris worm
+
+
+
+## Common Criteria
+
+#### Protection Profile (PP)
+
+* An implementation independent description of security objectives and requirements for a category of products
+* "Describes what is needed/demanded!"
+* Constitutes a security objective
+* Usually created by a customer, interest group, authority etc.
+* Normally certified
+
+#### Security Target (ST)
+
+* A implementation dependent description of a product or a system
+* Includes the security objectives which are fulfilled by the product/system
+* Which threats the product/system meet
+* Also includes a description of the roles, policies, assumptions for the environment etc. that are assumed
+* "Describes what is offered!"
+* Is usually the answer of the developer to one/more PPs
+* Must be produced for a evaluation of a product
+
+#### Target Of Evaluation (TOE)
+* The product / system to be evaluated, or the part of the product / system to be evaluated
+* Defined in the Security Target
+* Physical and logical boundaries / interfaces to the environment should be specified
+* Can be difficult to define, especially for systems!
