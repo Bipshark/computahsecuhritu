@@ -114,3 +114,14 @@ In information security, a salami attack is a series of minor attacks that toget
 * Are divided into six assurance classes
 
 ![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2016.24.46.png)
+
+#### Special file permissions
+* setuid - changes the effective user id of the user to the owner of the program
+  * chmod u+s f1
+  * chmod 4744 f1
+* setgid - changes the effective group id of the user to the group of the program
+  * chmod g+s f1
+  * chmod 2744 f1
+* sticky bit - ensures the deletion of files by only file owner in a public writable directory
+  * chmod +t f1
+  * chmod 1744 f1
