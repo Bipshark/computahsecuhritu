@@ -17,3 +17,18 @@ The authentication information can be of __3 different, generic types__, based o
 In general, something that you have is called a _token_. i.e. something that is used for authentication.
 
 A __capability__ is an unforgeable token that gives the possessor certain _rights_ (to an object) - __authorization__
+
+## Ethics
+
+#### Consequence-based theory
+The __teleological theory__ of ethics focuses on the _consequences of actions_. Choose the action (among some set) that will result in the __greatest good and the least harm__.
+
+There are two forms of teleology
+* Egoism – relates to the person taking the action
+* Utilitarianism – relates to everybody, the whole "universe"
+
+#### Rule-based theory
+The __deontology theory__ is founded in a _sense of duty_. Certain things are inherently good, i.e. good (or bad) in
+themselves, e.g. truth, justice, freedom, peace, etc.
+
+There is a special form of deontology, __rule-deontology__ that believes that there are a set of __universal, self-evident rules__ that should specify our proper conduct
