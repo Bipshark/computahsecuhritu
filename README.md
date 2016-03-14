@@ -156,3 +156,10 @@ In information security, a salami attack is a series of minor attacks that toget
 #### Diffie–Hellman key exchange (D–H)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diffie-Hellman_Key_Exchange.svg/500px-Diffie-Hellman_Key_Exchange.svg.png)
+
+## Unix
+
+#### Passwords
+Stored in /etc/shadow - Only root have access
+
+![](http://scd-it.com/imgs/image/a3.bmp)
