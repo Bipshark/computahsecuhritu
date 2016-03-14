@@ -2,13 +2,14 @@
 
 ##  Security attributes
 
-* Availability - readiness for correct service
-* Reliability - continuity of correct service
-* Safety - absence of catastrophic consequences on the user(s) and the environment
-* Confidentiality - prevent disclosure of information to unauthorized parties. 
-* Integrity - absence of improper system alteration
-* Maintainability - ability for a process to undergo modifications and repairs
+* __Availability:__ Readiness for correct service
+* __Reliability:__ Continuity of correct service
+* __Safety:__ Absence of catastrophic consequences on the user(s) and the environment
+* __Confidentiality:__ Prevent disclosure of information to unauthorized parties. 
+* __Integrity:__ Absence of improper system alteration
+* __Maintainability:__ Ability for a process to undergo modifications and repairs
 
+![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2020.09.16.png)
 
 ## Authentication procedure
 
