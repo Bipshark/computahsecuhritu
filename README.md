@@ -70,7 +70,9 @@ In information security, a salami attack is a series of minor attacks that toget
 
 ## Morris worm
 
-
+1. rsh attack
+2. fingerd attack
+3. sendmail debug attack
 
 ## Common Criteria
 
