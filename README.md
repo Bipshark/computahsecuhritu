@@ -38,3 +38,7 @@ There is a special form of deontology, __rule-deontology__ that believes that th
 **T**ime **O**f **C**heck to **T**ime **O**f **U**se
 
 Class of software bug caused by changes in a system between the __checking__ of a condition (such as a security credential) and the __use__ of the results of that check. This is one example of a __race condition__.
+
+## Bell-Lapadula
+
+![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2014.51.55.png)
