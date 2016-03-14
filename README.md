@@ -42,7 +42,6 @@ Class of software bug caused by changes in a system between the __checking__ of 
 ## Bell-Lapadula
 
 #### Security levels
-
 A security level is a (c, s) pair:
 * c = classification – E.g., unclassified, secret, top secret
 * s = category-set – E.g., Nuclear, Crypto
@@ -50,7 +49,6 @@ A security level is a (c, s) pair:
 * L1 dominates L2 sometimes written L1 ⊒ L2 or L2 ⊑ L1
 
 #### Security properties
-
 The simple security or ss-property:
 * For any (S, O, A) ∈ b, if A includes observation, then level(S) must dominate level(O)
 * E.g., an unclassified user cannot read a top-secret document
@@ -77,7 +75,6 @@ In information security, a salami attack is a series of minor attacks that toget
 ## Common Criteria
 
 #### Protection Profile (PP)
-
 * An implementation independent description of security objectives and requirements for a category of products
 * "Describes what is needed/demanded!"
 * Constitutes a security objective
@@ -85,7 +82,6 @@ In information security, a salami attack is a series of minor attacks that toget
 * Normally certified
 
 #### Security Target (ST)
-
 * A implementation dependent description of a product or a system
 * Includes the security objectives which are fulfilled by the product/system
 * Which threats the product/system meet
@@ -99,3 +95,20 @@ In information security, a salami attack is a series of minor attacks that toget
 * Defined in the Security Target
 * Physical and logical boundaries / interfaces to the environment should be specified
 * Can be difficult to define, especially for systems!
+
+#### Assurance requirements
+* Describes
+  * What the developer shall do
+  * What shall be proven and presented
+  * What the evaluator shall verify/inspect
+* Are divided into seven Evaluation Assurance Levels
+  * EAL1 – Functionally tested
+  * EAL2 – Structurally tested
+  * EAL3 – Methodically tested and checked
+  * EAL4 – Methodically designed, tested, and reviewed
+  * EAL5 – Semiformally designed and tested
+  * EAL6 – Semiformally verified design and tested
+  * EAL7 – Formally verified design and tested
+* Are divided into six assurance classes
+
+![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2016.24.46.png)
