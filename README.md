@@ -115,7 +115,7 @@ In information security, a salami attack is a series of minor attacks that toget
 
 ![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2016.24.46.png)
 
-#### Special file permissions
+## Special file permissions
 * setuid - changes the effective user id of the user to the owner of the program
   * chmod u+s f1
   * chmod 4744 f1
