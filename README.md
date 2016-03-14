@@ -41,4 +41,27 @@ Class of software bug caused by changes in a system between the __checking__ of 
 
 ## Bell-Lapadula
 
+#### Security levels
+
+A security level is a (c, s) pair:
+* c = classification – E.g., unclassified, secret, top secret
+* s = category-set – E.g., Nuclear, Crypto
+* (c1, s1) dominates (c2, s2) `iff c1 ≥ c2 and s2 ⊆ s1`
+* L1 dominates L2 sometimes written L1 ⊒ L2 or L2 ⊑ L1
+
+#### Security properties
+
+The simple security or ss-property:
+* For any (S, O, A) ∈ b, if A includes observation, then level(S) must dominate level(O)
+* E.g., an unclassified user cannot read a top-secret document
+
+The star security or *-property:
+* If a subject can observe O1 and modify O2, then level(O2) dominates level(O1)
+* E.g., cannot copy top secret file into secret file
+* More precisely, given (S, O, A) ∈ b:
+
+  * if A = r then current-level(S) ⊒ level(O) (“no read up”)
+  * if A = a then current-level(S) ⊑ level(O) (“no write down”)
+  * if A = w then current-level(S) = level (O)
+
 ![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2014.51.55.png)
