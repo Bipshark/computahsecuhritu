@@ -1,5 +1,15 @@
 # Plugglapp, jajamensan
 
+##  Security attributes
+
+* Availability - readiness for correct service
+* Reliability - continuity of correct service
+* Safety - absence of catastrophic consequences on the user(s) and the environment
+* Confidentiality - prevent disclosure of information to unauthorized parties. 
+* Integrity - absence of improper system alteration
+* Maintainability - ability for a process to undergo modifications and repairs
+
+
 ## Authentication procedure
 
 1. __Identification__ of the user (who is it?)
