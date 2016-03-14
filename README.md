@@ -32,3 +32,9 @@ The __deontology theory__ is founded in a _sense of duty_. Certain things are in
 themselves, e.g. truth, justice, freedom, peace, etc.
 
 There is a special form of deontology, __rule-deontology__ that believes that there are a set of __universal, self-evident rules__ that should specify our proper conduct
+
+## Kerberos
+
+**T**ime **O**f **C**heck to **T**ime **O**f **U**se
+
+Class of software bug caused by changes in a system between the __checking__ of a condition (such as a security credential) and the __use__ of the results of that check. This is one example of a __race condition__.
