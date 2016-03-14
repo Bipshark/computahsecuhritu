@@ -11,6 +11,12 @@
 
 ![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2020.09.16.png)
 
+##  Protection mechanisms
+* Firewalls
+* Antivirus
+* User account access controls and cryptography 
+* Intrusion Detection System (IDS) 
+
 ## Authentication procedure
 
 1. __Identification__ of the user (who is it?)
@@ -45,6 +51,13 @@ themselves, e.g. truth, justice, freedom, peace, etc.
 There is a special form of deontology, __rule-deontology__ that believes that there are a set of __universal, self-evident rules__ that should specify our proper conduct
 
 ## Kerberos
+
+* Ticket - a token used by the user, so that his identity can be securely transferred to the server. It contains the necessary information needed for the user and server to be able to communicate (e.g. crypto keys). ONe ticket for each service is generated, often valid for hours.
+* Authenticator - a one-time token showing that the user the user has the permission to use a service (one ticker per session, short lifetime ~5 min, to prove user´s identity)
+* Session key - a temporaty key for the commmunication between the user and the service 
+* Life time - the lifetime of a ticket
+* Time stamp - the time when the ticket was created
+* Nonce - a random number, to prevent replay attacks
 
 **T**ime **O**f **C**heck to **T**ime **O**f **U**se
 
@@ -136,3 +149,10 @@ In information security, a salami attack is a series of minor attacks that toget
 * sticky bit - ensures the deletion of files by only file owner in a public writable directory
   * `chmod +t f1`
   * `chmod 1744 f1`
+ 
+
+## Cryptography
+
+#### Diffie–Hellman key exchange (D–H)
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diffie-Hellman_Key_Exchange.svg/500px-Diffie-Hellman_Key_Exchange.svg.png)
