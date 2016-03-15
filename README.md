@@ -195,4 +195,9 @@ Separation of duty - prevent abuse that can arise when the same person performs 
 Prevent flow of information between companies that may have conflicting interests, eg. competing.
 
 
-
+## Side channel attack
+Side channel attacks are when you fysically implement a cryptosystem
+* timing information
+* power consumption
+* electromagnetic leaks 
+* sound
