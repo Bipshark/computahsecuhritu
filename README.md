@@ -197,7 +197,7 @@ Prevent flow of information between companies that may have conflicting interest
 
 ## Side channel attack
 Side channel attacks are when you fysically implement a cryptosystem
-* timing information
-* power consumption
-* electromagnetic leaks 
-* sound
+* Timing information
+* Power consumption
+* Electromagnetic leaks 
+* Sound
