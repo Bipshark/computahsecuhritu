@@ -173,3 +173,26 @@ Stored in /etc/shadow - Only root has access
 
 #### Threats
 
+## Clark-Wilson model
+Ensures integrity
+
+* Authentication: identity of all users must be properly
+authenticated.
+* Audit: modifications should be logged to record every
+program executed and by whom, in a way that cannot be
+subverted.
+* Well-formed transactions: users manipulate data only in
+constrained ways. Only legitimate accesses are allowed.
+* Separation of duty: the system associates with each user a
+valid set of programs they can run and prevents unauthorized
+modifications, thus preserving integrity and consistency with
+the real world.
+
+#### Lee, Nash och Poland
+Separation of duty - prevent abuse that can arise when the same person performs too many related actions.
+
+## Chinese Wall policy
+Prevent flow of information between companies that may have conflicting interests, eg. competing.
+
+
+
