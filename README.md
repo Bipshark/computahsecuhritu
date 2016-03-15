@@ -163,3 +163,13 @@ In information security, a salami attack is a series of minor attacks that toget
 Stored in /etc/shadow - Only root has access
 
 ![](https://cloud.githubusercontent.com/assets/6649265/13758028/894d5a58-ea27-11e5-8db5-7c3f05234de4.PNG)
+
+## Insiders
+
+* The ordinary user
+* Tuhe former user
+* Maintenance personnel (system administrator, etc)
+* The designer (backdoors, trojan horses)
+
+#### Threats
+
