@@ -65,6 +65,28 @@ There is a special form of deontology, __rule-deontology__ that believes that th
 
 Class of software bug caused by changes in a system between the __checking__ of a condition (such as a security credential) and the __use__ of the results of that check. This is one example of a __race condition__.
 
+## Clark-Wilson model
+Ensures integrity
+
+* Authentication: identity of all users must be properly
+authenticated.
+* Audit: modifications should be logged to record every
+program executed and by whom, in a way that cannot be
+subverted.
+* Well-formed transactions: users manipulate data only in
+constrained ways. Only legitimate accesses are allowed.
+* Separation of duty: the system associates with each user a
+valid set of programs they can run and prevents unauthorized
+modifications, thus preserving integrity and consistency with
+the real world.
+
+#### Lee, Nash och Poland
+Separation of duty - prevent abuse that can arise when the same person performs too many related actions.
+
+## Chinese Wall policy
+Prevent flow of information between companies that may have conflicting interests, eg. competing.
+
+
 ## Bell-Lapadula
 
 #### Security levels
@@ -174,28 +196,6 @@ Stored in /etc/shadow - Only root has access
 * The designer (backdoors, trojan horses)
 
 #### Threats
-
-## Clark-Wilson model
-Ensures integrity
-
-* Authentication: identity of all users must be properly
-authenticated.
-* Audit: modifications should be logged to record every
-program executed and by whom, in a way that cannot be
-subverted.
-* Well-formed transactions: users manipulate data only in
-constrained ways. Only legitimate accesses are allowed.
-* Separation of duty: the system associates with each user a
-valid set of programs they can run and prevents unauthorized
-modifications, thus preserving integrity and consistency with
-the real world.
-
-#### Lee, Nash och Poland
-Separation of duty - prevent abuse that can arise when the same person performs too many related actions.
-
-## Chinese Wall policy
-Prevent flow of information between companies that may have conflicting interests, eg. competing.
-
 
 ## Side channel attack
 Side channel attacks are when you fysically implement a cryptosystem
