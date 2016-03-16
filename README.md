@@ -9,6 +9,8 @@
 * __Integrity:__ Absence of improper system alteration
 * __Maintainability:__ Ability for a process to undergo modifications and repairs
 
+Trick to remember: C A R S I M – Car Simulator
+
 ![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2020.09.16.png)
 
 ![screenshot from 2016-03-16 13 55 47](https://cloud.githubusercontent.com/assets/6649265/13812913/ef367b6c-eb7e-11e5-9671-05d7c6c1fd94.png)
