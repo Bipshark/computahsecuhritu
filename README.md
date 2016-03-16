@@ -203,3 +203,7 @@ Side channel attacks are when you fysically implement a cryptosystem
 * Power consumption
 * Electromagnetic leaks 
 * Sound
+
+
+## Nice links
+http://www.slideshare.net/aouyang/2-security-architecturedesign-11860029
