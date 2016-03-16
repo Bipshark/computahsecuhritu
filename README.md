@@ -204,7 +204,7 @@ Side channel attacks are when you fysically implement a cryptosystem
 * Electromagnetic leaks 
 * Sound
 
-##Methods for ”measuring” security
+## Methods for ”measuring” security
 * Evaluation/Certification (according to some standard): classification of the system in classes based on design characteristics and security mechanisms.
 “The ‘better’ the design is, the more secure the system”
 * Risk analysis: estimation of the probability for specific intrusions and their consequences and costs. Trade-off towards
@@ -220,6 +220,14 @@ takes to make an intrusion.
 * Weakest adversary: which is the weakest adversary that can compromise the
 system?
 * MTTC (Mean Time To Compromise): calculates the statistical mean time to an intrusion
+
+## The basis of OS protection is separation. The separation can be of four different kinds:
+* Physical: physical objects, such as CPU’s, printers, etc.
+* Temporal: execution at different times
+* Logical: domains, each user gets the impression that
+she is ”alone” in the system
+' Cryptographic: hiding data, so that other users cannot
+understand them
 
 ## Nice links
 http://www.slideshare.net/aouyang/2-security-architecturedesign-11860029
