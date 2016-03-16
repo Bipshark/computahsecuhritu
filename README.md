@@ -204,6 +204,22 @@ Side channel attacks are when you fysically implement a cryptosystem
 * Electromagnetic leaks 
 * Sound
 
+##Methods for ”measuring” security
+* Evaluation/Certification (according to some standard): classification of the system in classes based on design characteristics and security mechanisms.
+“The ‘better’ the design is, the more secure the system”
+* Risk analysis: estimation of the probability for specific intrusions and their consequences and costs. Trade-off towards
+the corresponding costs for protection.
+* Penetration tests:
+Finding vulnerabilities by using “Tiger teams”. (But you never
+find them all….)
+* Vulnerability assessment: includes methods for finding system vulnerabilities
+
+* Effort-based approach (based on “simulated” attacks): a statistical metric of system security based on the effort it
+takes to make an intrusion.
+“The harder to make an intrusion, the more secure the system”
+* Weakest adversary: which is the weakest adversary that can compromise the
+system?
+* MTTC (Mean Time To Compromise): calculates the statistical mean time to an intrusion
 
 ## Nice links
 http://www.slideshare.net/aouyang/2-security-architecturedesign-11860029
