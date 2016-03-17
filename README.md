@@ -207,6 +207,20 @@ Side channel attacks are when you fysically implement a cryptosystem
 * Sound
 
 ## Metrics
+
+###Scales
+* Nominal
+* Ordinal
+* Interval
+* Ratio
+* Absolute
+
+###Security Metrication Basics - Example "System Security"
+1. Define the concept => System Security
+2. Define suitable attribute for metrication => The effort expended to make breaches
+3. Select method for assessing the magnitude of this attribute => Based on controlled intrusion experiments
+4. Select a method for how to do this assessment in a practical way => Use students & log activities
+
 ### Methods for ”measuring” security
 * Evaluation/Certification (according to some standard): classification of the system in classes based on design characteristics and security mechanisms.
 “The ‘better’ the design is, the more secure the system”
