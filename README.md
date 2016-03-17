@@ -206,7 +206,8 @@ Side channel attacks are when you fysically implement a cryptosystem
 * Electromagnetic leaks 
 * Sound
 
-## Methods for ”measuring” security
+## Metrics
+### Methods for ”measuring” security
 * Evaluation/Certification (according to some standard): classification of the system in classes based on design characteristics and security mechanisms.
 “The ‘better’ the design is, the more secure the system”
 * Risk analysis: estimation of the probability for specific intrusions and their consequences and costs. Trade-off towards
