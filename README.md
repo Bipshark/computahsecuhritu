@@ -25,6 +25,12 @@ Trick to remember: C A R S I M – Car Simulator
 ![screenshot from 2016-03-16 13 55 47](https://cloud.githubusercontent.com/assets/6649265/13812913/ef367b6c-eb7e-11e5-9671-05d7c6c1fd94.png)
 
 ##  Protection mechanisms
+
+*__THREAT REDUCTION:__ Legal protection, security check-ups, education
+*__BOUNDARY PROTECTION:__ Shield cables, encryption, locks, access control
+*__RECOVERY:__ Antivirus, supervision, intrusion detection, encryption of stored data
+
+
 * Firewalls
 * Antivirus
 * User account access controls and cryptography 
