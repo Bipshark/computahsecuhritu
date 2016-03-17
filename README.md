@@ -79,20 +79,29 @@ Class of software bug caused by changes in a system between the __checking__ of 
 ## Clark-Wilson model
 Ensures integrity
 
-* Authentication: identity of all users must be properly
-authenticated.
-* Audit: modifications should be logged to record every
-program executed and by whom, in a way that cannot be
-subverted.
+### 2 Central Principles
 * Well-formed transactions: users manipulate data only in
 constrained ways. Only legitimate accesses are allowed.
 * Separation of duty: the system associates with each user a
 valid set of programs they can run and prevents unauthorized
 modifications, thus preserving integrity and consistency with
-the real world.
+the real world. (Introduced by Lee, Nash & Poland)
 
-#### Lee, Nash och Poland
-Separation of duty - prevent abuse that can arise when the same person performs too many related actions.
+### Principal Components
+* __Constrained Data Items (CDI)__ Objects that are subject to strict integrity controls
+* __Unconstrained Data Items (UDI)__ Unchecked data items
+* __Integrity Verification Procedures (IVPs)__ Assures that all CDIs conform to some application-specific model of integrity & consistency.
+* __Transformation Procedures (TPs)__ System transactions that change the set of CDIs from one state to another.
+
+- Enforces integrity by means of **certification-** & **enforcement-rules** on TPs
+
+
+* Authentication: identity of all users must be properly
+authenticated.
+* Audit: modifications should be logged to record every
+program executed and by whom, in a way that cannot be
+subverted.
+
 
 ## Chinese Wall policy
 Prevent flow of information between companies that may have conflicting interests, eg. competing.
