@@ -223,6 +223,14 @@ takes to make an intrusion.
 system?
 * MTTC (Mean Time To Compromise): calculates the statistical mean time to an intrusion
 
+
+## Risk Treatment Alternatives
+* Risk acceptance
+* Risk avoidance
+* Risk transferal
+* Reduce consequence
+* Reduce likelihood
+
 ## The basis of OS protection is separation. The separation can be of four different kinds:
 * Physical: physical objects, such as CPU’s, printers, etc.
 * Temporal: execution at different times
