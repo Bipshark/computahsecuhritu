@@ -2,7 +2,9 @@
 
 ##  Security attributes
 There are __PROTECTIVE__ attributes and __BEHAVIOURAL__ attributes.
+
 __Protective__ are the attributes that influence security before a threat has reached the system.
+
 __Behavioural__ are the attributes that play their part if some threat has reached the system.
 
 ### Most Important (CIA)
@@ -25,16 +27,15 @@ Trick to remember: C A R S I M – Car Simulator
 ![screenshot from 2016-03-16 13 55 47](https://cloud.githubusercontent.com/assets/6649265/13812913/ef367b6c-eb7e-11e5-9671-05d7c6c1fd94.png)
 
 ##  Protection mechanisms
+Passive Attack: Eavesdropping
+
+Active Attack: Modify/Fake Data
+
 
 * __THREAT REDUCTION:__ Legal protection, security check-ups, education
 * __BOUNDARY PROTECTION:__ Shield cables, encryption, locks, access control
 * __RECOVERY:__ Antivirus, supervision, intrusion detection, encryption of stored data
 
-
-* Firewalls
-* Antivirus
-* User account access controls and cryptography 
-* Intrusion Detection System (IDS) 
 
 ## Authentication procedure
 
@@ -42,6 +43,8 @@ Trick to remember: C A R S I M – Car Simulator
 2. __Provision__ of some kind of authentication information, which is secret and unforgeable.
 3. __Transmission__ of the authentication information to the system through a secure channel.
 4. __Validation__ of the authentication information with some reference information (proof of correctness).
+
+Usually, the transmission channel is the weakest link. 
 
 The authentication information can be of __3 different, generic types__, based on something that is unique for the user:
 
@@ -80,7 +83,7 @@ There is a special form of deontology, __rule-deontology__ that believes that th
 
 **T**ime **O**f **C**heck to **T**ime **O**f **U**se
 
-Class of software bug caused by changes in a system between the __checking__ of a condition (such as a security credential) and the __use__ of the results of that check. This is one example of a __race condition__.
+Class of software bug caused by changes in a system between the __checking__ of a condition (such as a security credential) and the __use__ of the results of that check. This is one example of a __race condition__. For example, checking if a file is a valid file and then using the file. Between the check and the usage some attacker can switch out/modify the file, actually making it invalid, but it will still be used.
 
 ## Clark-Wilson model
 Ensures integrity
@@ -111,6 +114,20 @@ subverted.
 
 ## Chinese Wall policy
 Prevent flow of information between companies that may have conflicting interests, eg. competing.
+
+* __Subjects__ : Entities that may wish to access information
+* __Information__: Corporate information, three levels:
+ 1. Objects: Individual items of information
+ 2. Datasets: All objects that concern the same corporation
+ 3. Conflict of Interest: All datasets whose corporation are in competition
+
+###Access Rules:
+__Simple Security Rule:__ A subject S can only read object O if:
+* O is in the same DS as an object already accessed by S, or
+* O belongs to a CI which S has not yet accessed
+__*-property rule:__ A subject S can only modify object O if:
+* S can read O according to the Simple Security Rule and,
+* All objects that S can read are in the same DS as O
 
 
 ## Bell-Lapadula
@@ -205,6 +222,9 @@ In information security, a salami attack is a series of minor attacks that toget
 
 #### Diffie–Hellman key exchange (D–H)
 
+Uses a trapdoor function. Meaning that it's easy to calculate one way but hard/impossible to go the other way.
+f(x) = A^x mod p : it's easy to calculate f(x) given the other variables, but it's hard to calculate x given the other variables.
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diffie-Hellman_Key_Exchange.svg/500px-Diffie-Hellman_Key_Exchange.svg.png)
 
 ## Unix
@@ -273,13 +293,30 @@ system?
 * Reduce consequence
 * Reduce likelihood
 
-## The basis of OS protection is separation. The separation can be of four different kinds:
+
+## OS Security
+#### Layers of a computer system
+1. Applications
+2. Services
+3. Operating System
+4. OS Kernel
+5. Hardware
+
+- The security of a layer could be compromised by attacks from lower levels.
+
+#### The basis of OS protection is separation. The separation can be of four different kinds:
 * Physical: physical objects, such as CPU’s, printers, etc.
 * Temporal: execution at different times
 * Logical: domains, each user gets the impression that
 she is ”alone” in the system
-' Cryptographic: hiding data, so that other users cannot
+* Cryptographic: hiding data, so that other users cannot
 understand them
+
+####Trusted OS Concepts
+* Kernel - Performs the lowest level functions
+* Security Kernel - Enforces the security mechanisms of the entire OS
+* Reference Monitor (RM) - Part of the Security Kernel that controls access to objects
+* Trusted Computing Base (TCB) - Is everything in the OS necessary to enforce the security policy
 
 ## Nice links
 http://www.slideshare.net/aouyang/2-security-architecturedesign-11860029
