@@ -88,28 +88,18 @@ Class of software bug caused by changes in a system between the __checking__ of 
 ## Clark-Wilson model
 Ensures integrity
 
-### 2 Central Principles
-* Well-formed transactions: users manipulate data only in
-constrained ways. Only legitimate accesses are allowed.
-* Separation of duty: the system associates with each user a
-valid set of programs they can run and prevents unauthorized
-modifications, thus preserving integrity and consistency with
-the real world. (Introduced by Lee, Nash & Poland)
+#### 2 Central Principles
+* Well-formed transactions: users manipulate data only in constrained ways. Only legitimate accesses are allowed.
+* Separation of duty: the system associates with each user a valid set of programs they can run and prevents unauthorized modifications, thus preserving integrity and consistency with the real world. (Introduced by Lee, Nash & Poland)
 
-### Principal Components
+#### Principal Components
 * __Constrained Data Items (CDI)__ Objects that are subject to strict integrity controls
 * __Unconstrained Data Items (UDI)__ Unchecked data items
 * __Integrity Verification Procedures (IVPs)__ Assures that all CDIs conform to some application-specific model of integrity & consistency.
 * __Transformation Procedures (TPs)__ System transactions that change the set of CDIs from one state to another.
-
-- Enforces integrity by means of **certification-** & **enforcement-rules** on TPs
-
-
-* Authentication: identity of all users must be properly
-authenticated.
-* Audit: modifications should be logged to record every
-program executed and by whom, in a way that cannot be
-subverted.
+* Enforces integrity by means of **certification-** & **enforcement-rules** on TPs
+* Authentication: identity of all users must be properly authenticated.
+* Audit: modifications should be logged to record every program executed and by whom, in a way that cannot be subverted.
 
 
 ## Chinese Wall policy
@@ -121,10 +111,11 @@ Prevent flow of information between companies that may have conflicting interest
  2. Datasets: All objects that concern the same corporation
  3. Conflict of Interest: All datasets whose corporation are in competition
 
-###Access Rules:
+#### Access Rules:
 __Simple Security Rule:__ A subject S can only read object O if:
 * O is in the same DS as an object already accessed by S, or
 * O belongs to a CI which S has not yet accessed
+
 __*-property rule:__ A subject S can only modify object O if:
 * S can read O according to the Simple Security Rule and,
 * All objects that S can read are in the same DS as O
@@ -216,7 +207,6 @@ In information security, a salami attack is a series of minor attacks that toget
 * sticky bit - ensures the deletion of files by only file owner in a public writable directory
   * `chmod +t f1`
   * `chmod 1744 f1`
- 
 
 ## Cryptography
 
@@ -259,29 +249,23 @@ Side channel attacks are when you fysically implement a cryptosystem
 * Ratio
 * Absolute
 
-###Security Metrication Basics - Example "System Security"
+#### Security Metrication Basics - Example "System Security"
 1. Define the concept => System Security
 2. Define suitable attribute for metrication => The effort expended to make breaches
 3. Select method for assessing the magnitude of this attribute => Based on controlled intrusion experiments
 4. Select a method for how to do this assessment in a practical way => Use students & log activities
 
-###General Methods for ”measuring” security
-* Evaluation/Certification (according to some standard): classification of the system in classes based on design characteristics and security mechanisms.
-“The ‘better’ the design is, the more secure the system”
-* Risk analysis: estimation of the probability for specific intrusions and their consequences and costs. Trade-off towards
-the corresponding costs for protection.
+#### General Methods for ”measuring” security
+* Evaluation/Certification (according to some standard): classification of the system in classes based on design characteristics and security mechanisms. “The ‘better’ the design is, the more secure the system”
+* Risk analysis: estimation of the probability for specific intrusions and their consequences and costs. Trade-off towards the corresponding costs for protection.
 * Penetration tests:
-Finding vulnerabilities by using “Tiger teams”. (But you never
-find them all….)
+Finding vulnerabilities by using “Tiger teams”. (But you never find them all….)
 * Vulnerability assessment: includes methods for finding system vulnerabilities
-* Effort-based approach (based on “simulated” attacks): a statistical metric of system security based on the effort it
-takes to make an intrusion.
-“The harder to make an intrusion, the more secure the system”
-* Weakest adversary: which is the weakest adversary that can compromise the
-system?
+* Effort-based approach (based on “simulated” attacks): a statistical metric of system security based on the effort it takes to make an intrusion. “The harder to make an intrusion, the more secure the system”
+* Weakest adversary: which is the weakest adversary that can compromise the system?
 * MTTC (Mean Time To Compromise): calculates the statistical mean time to an intrusion
 
-###Special Cases for measuring security
+#### Special Cases for measuring security
 * Cryptographic Strength: the effectiveness of cryptos
 * Privacy measures: extent that the system will leak information
 
@@ -293,8 +277,8 @@ system?
 * Reduce consequence
 * Reduce likelihood
 
-
 ## OS Security
+
 #### Layers of a computer system
 1. Applications
 2. Services
@@ -307,10 +291,8 @@ system?
 #### The basis of OS protection is separation. The separation can be of four different kinds:
 * Physical: physical objects, such as CPU’s, printers, etc.
 * Temporal: execution at different times
-* Logical: domains, each user gets the impression that
-she is ”alone” in the system
-* Cryptographic: hiding data, so that other users cannot
-understand them
+* Logical: domains, each user gets the impression that she is ”alone” in the system
+* Cryptographic: hiding data, so that other users cannot understand them
 
 ####Trusted OS Concepts
 * Kernel - Performs the lowest level functions
