@@ -208,36 +208,28 @@ Side channel attacks are when you fysically implement a cryptosystem
 
 ## Metrics
 
-###Scales
+#### Scales
 * Nominal
 * Ordinal
 * Interval
 * Ratio
 * Absolute
 
-###Security Metrication Basics - Example "System Security"
+#### Security Metrication Basics - Example "System Security"
 1. Define the concept => System Security
 2. Define suitable attribute for metrication => The effort expended to make breaches
 3. Select method for assessing the magnitude of this attribute => Based on controlled intrusion experiments
 4. Select a method for how to do this assessment in a practical way => Use students & log activities
 
-### Methods for ”measuring” security
-* Evaluation/Certification (according to some standard): classification of the system in classes based on design characteristics and security mechanisms.
-“The ‘better’ the design is, the more secure the system”
-* Risk analysis: estimation of the probability for specific intrusions and their consequences and costs. Trade-off towards
-the corresponding costs for protection.
-* Penetration tests:
-Finding vulnerabilities by using “Tiger teams”. (But you never
-find them all….)
+#### Methods for "measuring" security
+* Evaluation/Certification (according to some standard): classification of the system in classes based on design characteristics and security mechanisms. “The ‘better’ the design is, the more secure the system”
+* Risk analysis: Estimation of the probability for specific intrusions and their consequences and costs. Trade-off towards the corresponding costs for protection.
+* Penetration tests: Finding vulnerabilities by using “Tiger teams”. (But you never find them all….)
 * Vulnerability assessment: includes methods for finding system vulnerabilities
 
-* Effort-based approach (based on “simulated” attacks): a statistical metric of system security based on the effort it
-takes to make an intrusion.
-“The harder to make an intrusion, the more secure the system”
-* Weakest adversary: which is the weakest adversary that can compromise the
-system?
+* Effort-based approach (based on “simulated” attacks): a statistical metric of system security based on the effort it takes to make an intrusion. “The harder to make an intrusion, the more secure the system”
+* Weakest adversary: which is the weakest adversary that can compromise the system?
 * MTTC (Mean Time To Compromise): calculates the statistical mean time to an intrusion
-
 
 ## Risk Treatment Alternatives
 * Risk acceptance
