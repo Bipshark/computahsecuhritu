@@ -234,7 +234,8 @@ Stored in /etc/shadow - Only root has access
 #### Threats
 
 ## Side channel attack
-Side channel attacks are when you fysically implement a cryptosystem
+Side-channel attack is any attack based on information gained from the physical implementation of a cryptosystem.
+
 * Timing information
 * Power consumption
 * Electromagnetic leaks 
