@@ -1,13 +1,22 @@
 # Plugglapp, jajamensan
 
 ##  Security attributes
+There are __PROTECTIVE__ attributes and __BEHAVIOURAL__ attributes.
+__Protective__ are the attributes that influence security before a threat has reached the system.
+__Behavioural__ are the attributes that play their part if some threat has reached the system.
 
-* __Availability:__ Readiness for correct service
-* __Reliability:__ Continuity of correct service
-* __Safety:__ Absence of catastrophic consequences on the user(s) and the environment
-* __Confidentiality:__ Prevent disclosure of information to unauthorized parties. 
-* __Integrity:__ Absence of improper system alteration
-* __Maintainability:__ Ability for a process to undergo modifications and repairs
+### Most Important (CIA)
+* __Confidentiality:__ Prevent disclosure of information to unauthorized parties. Behavioural 
+* __Integrity:__ Absence of improper system alteration : Preventing unauthorized modification. Protective
+* __Availability:__ Readiness for correct service to authorized users. Behavioural
+
+### Others
+* __Reliability:__ Continuity of correct service. Behavioural
+* __Safety:__ Absence of catastrophic consequences on the user(s) and the environment.
+* __Maintainability:__ Ability for a process to undergo modifications and repairs.
+* __Possession/Control:__ Authorized possession/control.
+* __Authenticity:__ That the author of something really is that author.
+* __Utility:__ Usefulness. Example: Encrypting data and losing the decryption key. The data fulfills all of the above but is not useful!
 
 Trick to remember: C A R S I M – Car Simulator
 
@@ -221,7 +230,7 @@ Side channel attacks are when you fysically implement a cryptosystem
 3. Select method for assessing the magnitude of this attribute => Based on controlled intrusion experiments
 4. Select a method for how to do this assessment in a practical way => Use students & log activities
 
-### Methods for ”measuring” security
+###General Methods for ”measuring” security
 * Evaluation/Certification (according to some standard): classification of the system in classes based on design characteristics and security mechanisms.
 “The ‘better’ the design is, the more secure the system”
 * Risk analysis: estimation of the probability for specific intrusions and their consequences and costs. Trade-off towards
@@ -230,13 +239,16 @@ the corresponding costs for protection.
 Finding vulnerabilities by using “Tiger teams”. (But you never
 find them all….)
 * Vulnerability assessment: includes methods for finding system vulnerabilities
-
 * Effort-based approach (based on “simulated” attacks): a statistical metric of system security based on the effort it
 takes to make an intrusion.
 “The harder to make an intrusion, the more secure the system”
 * Weakest adversary: which is the weakest adversary that can compromise the
 system?
 * MTTC (Mean Time To Compromise): calculates the statistical mean time to an intrusion
+
+###Special Cases for measuring security
+* Cryptographic Strength: the effectiveness of cryptos
+* Privacy measures: extent that the system will leak information
 
 
 ## Risk Treatment Alternatives
