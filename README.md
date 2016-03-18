@@ -41,7 +41,7 @@ Active Attack: Modify/Fake Data
 ## Authentication procedure
 
 1. __Identification__ of the user (who is it?)
-2. __Provision__ of some kind of authentication information, which is secret and unforgeable.
+2. Provision of some kind of __authentication information__, which is secret and unforgeable.
 3. __Transmission__ of the authentication information to the system through a secure channel.
 4. __Validation__ of the authentication information with some reference information (proof of correctness).
 
