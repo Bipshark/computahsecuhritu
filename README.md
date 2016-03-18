@@ -13,13 +13,13 @@ __Behavioural__ are the attributes that play their part if some threat has reach
 * __Availability:__ Readiness for correct service to authorized users. Behavioural
 
 ### Others
-* __Reliability:__ Continuity of correct service. Behavioural
-* __Safety:__ Absence of catastrophic consequences on the user(s) and the environment.
-* __Maintainability:__ Ability for a process to undergo modifications and repairs.
 * __Possession/Control:__ Authorized possession/control.
 * __Authenticity:__ That the author of something really is that author.
 * __Utility:__ Usefulness. Example: Encrypting data and losing the decryption key. The data fulfills all of the above but is not useful!
+* __Safety:__ Absence of catastrophic consequences on the user(s) and the environment.
 * __Accessibility:__ How difficult the system is to access. (Example: GPG is hard to use, SSL is not)
+* __Maintainability:__ Ability for a process to undergo modifications and repairs.
+* __Reliability:__ Continuity of correct service. Behavioural
 
 Trick to remember: P A U S A M R C I A - Pausa Mister CIA
 
