@@ -20,7 +20,7 @@ __Behavioural__ are the attributes that play their part if some threat has reach
 * __Authenticity:__ That the author of something really is that author.
 * __Utility:__ Usefulness. Example: Encrypting data and losing the decryption key. The data fulfills all of the above but is not useful!
 
-Trick to remember: C A R S I M – Car Simulator
+Trick to remember: P A U S M R C I A - Paus Mister CIA
 
 ![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2020.09.16.png)
 
