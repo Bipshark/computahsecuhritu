@@ -19,7 +19,7 @@ __Behavioural__ are the attributes that play their part if some threat has reach
 * __Possession/Control:__ Authorized possession/control.
 * __Authenticity:__ That the author of something really is that author.
 * __Utility:__ Usefulness. Example: Encrypting data and losing the decryption key. The data fulfills all of the above but is not useful!
-* Accessibility:__ How difficult the system is to access. (Example: GPG is hard to use, SSL is not)
+* __Accessibility:__ How difficult the system is to access. (Example: GPG is hard to use, SSL is not)
 
 Trick to remember: P A U S A M R C I A - Pausa Mister CIA
 
