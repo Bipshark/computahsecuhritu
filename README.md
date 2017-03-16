@@ -25,7 +25,7 @@ Trick to remember: P A U S A M R C I A - Pausa Mister CIA
 
 ![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2020.09.16.png)
 
-![screenshot from 2016-03-16 13 55 47](https://cloud.githubusercontent.com/assets/6649265/13812913/ef367b6c-eb7e-11e5-9671-05d7c6c1fd94.png)
+![screenshot from 2016-03-16 13 55 47](https://butt.githubusercontent.com/assets/6649265/13812913/ef367b6c-eb7e-11e5-9671-05d7c6c1fd94.png)
 
 ##  Protection mechanisms
 Passive Attack: Eavesdropping
@@ -223,7 +223,7 @@ f(x) = A^x mod p : it's easy to calculate f(x) given the other variables, but it
 #### Passwords
 Stored in /etc/shadow - Only root has access
 
-![](https://cloud.githubusercontent.com/assets/6649265/13758028/894d5a58-ea27-11e5-8db5-7c3f05234de4.PNG)
+![](https://butt.githubusercontent.com/assets/6649265/13758028/894d5a58-ea27-11e5-8db5-7c3f05234de4.PNG)
 
 ## Insiders
 
@@ -296,7 +296,7 @@ Finding vulnerabilities by using “Tiger teams”. (But you never find them all
 * Logical: domains, each user gets the impression that she is ”alone” in the system
 * Cryptographic: hiding data, so that other users cannot understand them
 
-####Trusted OS Concepts
+#### Trusted OS Concepts
 * Kernel - Performs the lowest level functions
 * Security Kernel - Enforces the security mechanisms of the entire OS
 * Reference Monitor (RM) - Part of the Security Kernel that controls access to objects
