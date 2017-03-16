@@ -145,7 +145,7 @@ The star security or *-property:
   * if A = a then current-level(S) ⊑ level(O) (“no write down”)
   * if A = w then current-level(S) = level (O)
 
-![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2014.51.55.png)
+![screen shot 2016-03-14 at 14 51 55](https://cloud.githubusercontent.com/assets/2521318/23999507/edf6c5a0-0a58-11e7-9a31-b134aba45ea6.png)
 
 ## Salami-attack
 
