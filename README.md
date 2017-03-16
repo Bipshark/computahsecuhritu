@@ -228,7 +228,7 @@ Stored in /etc/shadow - Only root has access
 ## Insiders
 
 * The ordinary user
-* Tuhe former user
+* The former user
 * Maintenance personnel (system administrator, etc)
 * The designer (backdoors, trojan horses)
 
@@ -244,7 +244,7 @@ Side-channel attack is any attack based on information gained from the physical 
 
 ## Metrics
 
-###Scales
+### Scales
 * Nominal
 * Ordinal
 * Interval
@@ -296,7 +296,7 @@ Finding vulnerabilities by using “Tiger teams”. (But you never find them all
 * Logical: domains, each user gets the impression that she is ”alone” in the system
 * Cryptographic: hiding data, so that other users cannot understand them
 
-####Trusted OS Concepts
+#### Trusted OS Concepts
 * Kernel - Performs the lowest level functions
 * Security Kernel - Enforces the security mechanisms of the entire OS
 * Reference Monitor (RM) - Part of the Security Kernel that controls access to objects
