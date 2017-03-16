@@ -196,7 +196,8 @@ In information security, a salami attack is a series of minor attacks that toget
   * EAL7 – Formally verified design and tested
 * Are divided into six assurance classes
 
-![](http://dl.dropboxusercontent.com/u/2548996/Screenshots/Screen%20Shot%202016-03-14%20at%2016.24.46.png)
+![screen shot 2016-03-14 at 16 24 46](https://cloud.githubusercontent.com/assets/2521318/23999560/1533edd2-0a59-11e7-8730-cae110645e57.png)
+
 
 ## Special file permissions
 * setuid - changes the effective user id of the user to the owner of the program
